@@ -80,4 +80,49 @@
     color: white
   }
   
- 
+  @media  (max-width: 300px) {
+    .form {
+        max-width: 295px; 
+    }
+
+    .text-input {
+        width: 40px; 
+    }
+
+    #submit {
+        width: 200px; 
+    }
+}
+
+
+@media (max-width: 720px) {
+  
+  .form {
+    max-width: 310px; 
+}
+
+.text-input {
+    width: 50px; 
+}
+
+#submit {
+    width: 250px; 
+}
+}
+
+
+
+@media (max-width: 1080px) {
+  
+  .form {
+    max-width: 310px; 
+}
+
+.text-input {
+    width: 50px; 
+}
+
+#submit {
+    width: 260px; 
+}
+}
